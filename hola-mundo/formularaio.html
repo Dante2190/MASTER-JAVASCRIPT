@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Don, Eventos y funciones Curso JS</title>
+    <script src="js/32-ejercicio-dom.js"></script>
+
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            float: left;
+            margin: 20px;
+           
+        }
+        .dashed{
+            border: 1px dashed black;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    
+    <!--
+        1. Formulario campos: bre, Apellidos, y edad
+        2. Boton de enviar el formulario: eventos submit
+        3. Mostrar datos por pantalla 
+        4. Validacion del formulario
+    -->
+    <h1>Ejercicio Don, Eventos y funciones Curso JS  </h1>
+
+    <div class="box">
+        <form action="#" method="POST" id="form" onsubmit="return false;">
+            <p>
+                <label for="nombre">Nombre:</label> <br/>
+                <input type="text" name="nombre" id="nombre"/>  <br/>
+                <span id="nombre_error"></span>
+            </p>
+            
+            <p>
+                <label for="apellidos">Apellidos:</label>  <br/>
+                <input type="text" name="Apellidos" id="apellidos"/>  <br/>
+                <span id="apellidos_error"></span>
+            </p>
+            
+            <p>
+                <label for="edad">Edad:</label>  <br/>
+                <input type="text" name="edad" id="edad"/>  <br/>
+                <span id="edad_error"></span>
+            </p>
+            
+
+            <input type="submit" value="Enviar" id="Enviar"/>
+            
+
+        </form>
+    </div>
+
+    <div class="box dashed">
+        <h3>informacion del usuario</h3>
+      
+    </div>
+</body>
+</html>
