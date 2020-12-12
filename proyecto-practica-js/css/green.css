@@ -1,0 +1,18 @@
+body{
+    /*imagen de fon*/
+    background: url("../img/hojas.jpg");
+    /*para que la imagen se quede estatica */
+    background-attachment: fixed;
+}
+
+#logo{
+	background: #235E3D;
+}
+
+#menu ul li:hover{
+	background: #235E3D;
+}
+
+.button-more{
+	background: #235E3D;
+}
